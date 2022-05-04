@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+/*styles index*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---HEADER---*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 56, 69);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.header img{
+    width: 200px;
+    height: 100px;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: rgb(198, 155, 123);
+    font-weight: bold;
+
+}
+
+.header nav ul li{
+    margin: 10px;
+}
+
+body {
+    background-color: cornflowerblue;    
+}
+
+.divAcercaDeNos {
+    font-family: 'Fira Sans', sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+.titleDivAcercaDeNos {
+    font-size: 28px;
+    font-style: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.cardAcercaDeNos {
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+    width: 32%;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 2px;
+    flex-wrap: nowrap;
+}
+
+.imgCardAcercaDeNos {
+    width: 100%;
+}
+
+.p__cardsMenuIndex {
+    font-size: 18px;   
+}
+
+.titleCardMenuIndex {
+    font-size: 25px;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+
+footer {
+    border: solid 1px black;
+    position: relative;
+    bottom: 0;
+
+}
+
+.imgRedes {
+    width: 35px;
+    height: 35px;
+    border: solid 1px black;
+    float: right;
+}
+
+.formContacto {
+    background-color: grey;
+    border: solid 1px black;
+}
+
+.btnCursos {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    border: solid 1px black;
+    background-color: coral;
+    border-radius: 10px;
+    float: right;
+    
+}
+
+/*STYLES CURSOS*/
+.h1Cursos {
+    font-size: 28px;
+    font-style: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sectionCursos {
+    padding: 5px;
+    margin: 5px;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.cardCursoUno {
+
+    width: 100%;
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+.cardCursoDos {
+
+    width: 100%;
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+.cardCursoTres {
+
+    width: 100%;
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+.textoCursos {
+    text-align: right;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.divImgCursos {
+    width: 400px;
+}
+
+.imgCursos {
+    width: 400px;
+    height: 100%;
+    float: left;
+    border-radius: 15px;
+}
+
+
+.h2Cursos {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;   
+}
+
+.asideCursos {
+    border: 1px solid black;
+    position: relative;
+}
+
+
+
+/*INSTALACIONES*/
+.sectionInstalaciones {
+    position: relative;
+    width: 100%;;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.divAulas {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.divDeportes {
+    width: 75%;
+    
+}
+
+.divBiblioteca {
+    width: 75%;
+    
+}
+
+.divImgInstalaciones {
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.divImgInstalacionesMid {
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.imgInstalaciones {
+    width: 100%;
+}
+

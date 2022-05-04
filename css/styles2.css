@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*---HEADER---*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 56, 69);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.header img{
+    width: 200px;
+    height: 100px;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: rgb(198, 155, 123);
+    font-weight: bold;
+}
+
+.header nav ul li{
+    margin: 10px;
+}
+
+
+/*---MAIN---*/
+
+.main {
+    background-color: #C69B7B;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/pasionledus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(58, 56, 69);
+}
+.hero h1 {
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    margin: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin: 20px;
+}
+.hero a {
+    background-color: #3A3845;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.main h2 {
+    margin: 30px;
+    text-align: center;
+}
+.sectionUno {
+    margin-top: 30px;
+}
+.sectionUno > div {
+    display: flex;
+    align-items: center;
+}
+
+.sectionUno > div img {
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.sectionUno div .divTexto {
+    margin: 50px;
+}
+
+.sectionDos > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.sectionDos > div img {
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.sectionDos div .divTexto {
+    margin: 50px;
+}
+    
+
+.sectionTres > div {
+    display: flex;
+    align-items: center;
+}
+
+.sectionTres > div img {
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.sectionTres div .divTexto {
+    margin: 50px;
+}
+
+
+
+
+
+
+/*---FOOTER---*/
+
+.footer { 
+    background-color: #826F66;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer div a img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer div a{
+    text-decoration: none;
+    color: rgb(247, 204, 172);
+    font-weight: bold;
+}
